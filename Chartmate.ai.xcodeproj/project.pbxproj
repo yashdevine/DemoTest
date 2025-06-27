@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8259CC6FE5A3A0232D35A027 /* Pods_Chartmate_ai.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EA9B6568A9D1EA6562BA3CB /* Pods_Chartmate_ai.framework */; };
+		9060608F2C23F73C00EA3D80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9060608E2C23F73C00EA3D80 /* AppDelegate.swift */; };
+		906060912C23F73C00EA3D80 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906060902C23F73C00EA3D80 /* SceneDelegate.swift */; };
+		906060932C23F73C00EA3D80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906060922C23F73C00EA3D80 /* ViewController.swift */; };
+		906060962C23F73C00EA3D80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 906060942C23F73C00EA3D80 /* Main.storyboard */; };
+		906060982C23F73E00EA3D80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 906060972C23F73E00EA3D80 /* Assets.xcassets */; };
+		9060609B2C23F73E00EA3D80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 906060992C23F73E00EA3D80 /* LaunchScreen.storyboard */; };
+		906060C52C23FED000EA3D80 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906060C42C23FED000EA3D80 /* KeyboardViewController.swift */; };
+		906060C92C23FED000EA3D80 /* Chartmate.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 906060C22C23FED000EA3D80 /* Chartmate.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		906060D62C2408E700EA3D80 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906060D42C24088800EA3D80 /* Extensions.swift */; };
+		906060DF2C240BB100EA3D80 /* Themes+Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906060DE2C240BB100EA3D80 /* Themes+Colors.swift */; };
+		9067D6BF2C3FF58200343D3D /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9067D6BE2C3FF58200343D3D /* Enums.swift */; };
+		9085A9132C32B9A400DDC04F /* DemoActionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9085A9122C32B9A400DDC04F /* DemoActionHandler.swift */; };
+		9085A9192C32BA0000DDC04F /* DemoCalloutActionProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9085A9142C32BA0000DDC04F /* DemoCalloutActionProvider.swift */; };
+		9085A91A2C32BA0000DDC04F /* DemoStyleProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9085A9152C32BA0000DDC04F /* DemoStyleProvider.swift */; };
+		9085A91B2C32BA0000DDC04F /* DemoLayoutProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9085A9162C32BA0000DDC04F /* DemoLayoutProvider.swift */; };
+		9085A91C2C32BA0000DDC04F /* FakeAutocompleteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9085A9172C32BA0000DDC04F /* FakeAutocompleteService.swift */; };
+		9085A91D2C32BA0000DDC04F /* KeyboardKit+Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9085A9182C32BA0000DDC04F /* KeyboardKit+Demo.swift */; };
+		90FE80352C2D36E4009A46CF /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90FE80342C2D36E4009A46CF /* Media.xcassets */; };
+		F3274F312C5FAF720061B05D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906060D42C24088800EA3D80 /* Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		906060C72C23FED000EA3D80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 906060832C23F73C00EA3D80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 906060C12C23FED000EA3D80;
+			remoteInfo = Chartmate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		906060CA2C23FED000EA3D80 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				906060C92C23FED000EA3D80 /* Chartmate.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		12C00A452C4C1066EBFC4238 /* Pods_Chartmate_ai_Chartmate_aiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chartmate_ai_Chartmate_aiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22D6B49C127ECC7FCF9D5BF1 /* Pods_Chartmate_aiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chartmate_aiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EA9B6568A9D1EA6562BA3CB /* Pods_Chartmate_ai.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chartmate_ai.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61B5D2A64975AD33C4D79AAE /* Pods-Chartmate.aiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chartmate.aiTests.debug.xcconfig"; path = "Target Support Files/Pods-Chartmate.aiTests/Pods-Chartmate.aiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		86E5A9FA5920CA647BC91F8C /* Pods-Chartmate.aiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chartmate.aiTests.release.xcconfig"; path = "Target Support Files/Pods-Chartmate.aiTests/Pods-Chartmate.aiTests.release.xcconfig"; sourceTree = "<group>"; };
+		9060608B2C23F73C00EA3D80 /* Chartmate.ai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chartmate.ai.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9060608E2C23F73C00EA3D80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		906060902C23F73C00EA3D80 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		906060922C23F73C00EA3D80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		906060952C23F73C00EA3D80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		906060972C23F73E00EA3D80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9060609A2C23F73E00EA3D80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9060609C2C23F73E00EA3D80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		906060C22C23FED000EA3D80 /* Chartmate.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Chartmate.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		906060C42C23FED000EA3D80 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		906060C62C23FED000EA3D80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		906060D42C24088800EA3D80 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		906060DE2C240BB100EA3D80 /* Themes+Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Themes+Colors.swift"; sourceTree = "<group>"; };
+		9067D6BE2C3FF58200343D3D /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		9085A9122C32B9A400DDC04F /* DemoActionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoActionHandler.swift; sourceTree = "<group>"; };
+		9085A9142C32BA0000DDC04F /* DemoCalloutActionProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoCalloutActionProvider.swift; sourceTree = "<group>"; };
+		9085A9152C32BA0000DDC04F /* DemoStyleProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoStyleProvider.swift; sourceTree = "<group>"; };
+		9085A9162C32BA0000DDC04F /* DemoLayoutProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoLayoutProvider.swift; sourceTree = "<group>"; };
+		9085A9172C32BA0000DDC04F /* FakeAutocompleteService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakeAutocompleteService.swift; sourceTree = "<group>"; };
+		9085A9182C32BA0000DDC04F /* KeyboardKit+Demo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "KeyboardKit+Demo.swift"; sourceTree = "<group>"; };
+		90A5877D2C2D6F9300511553 /* Chartmate.ai.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Chartmate.ai.entitlements; sourceTree = "<group>"; };
+		90FE80342C2D36E4009A46CF /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		946685E0BA15D59DBFF3DFDD /* Pods-Chartmate.ai.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chartmate.ai.debug.xcconfig"; path = "Target Support Files/Pods-Chartmate.ai/Pods-Chartmate.ai.debug.xcconfig"; sourceTree = "<group>"; };
+		AADCF1FA2D28E79DB8AF99DB /* Pods-Chartmate.ai.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chartmate.ai.release.xcconfig"; path = "Target Support Files/Pods-Chartmate.ai/Pods-Chartmate.ai.release.xcconfig"; sourceTree = "<group>"; };
+		C9E437178D04292E44BCBC9C /* Pods-Chartmate.ai-Chartmate.aiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chartmate.ai-Chartmate.aiUITests.debug.xcconfig"; path = "Target Support Files/Pods-Chartmate.ai-Chartmate.aiUITests/Pods-Chartmate.ai-Chartmate.aiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FAD5B84952851800F4E299D5 /* Pods-Chartmate.ai-Chartmate.aiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chartmate.ai-Chartmate.aiUITests.release.xcconfig"; path = "Target Support Files/Pods-Chartmate.ai-Chartmate.aiUITests/Pods-Chartmate.ai-Chartmate.aiUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		906060882C23F73C00EA3D80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8259CC6FE5A3A0232D35A027 /* Pods_Chartmate_ai.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		906060BF2C23FED000EA3D80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		906060822C23F73C00EA3D80 = {
+			isa = PBXGroup;
+			children = (
+				9060608D2C23F73C00EA3D80 /* Chartmate.ai */,
+				906060C32C23FED000EA3D80 /* Chartmate */,
+				9060608C2C23F73C00EA3D80 /* Products */,
+				E1712B9403D78B3B35630728 /* Pods */,
+				DC3A85C90B063699FED2C170 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9060608C2C23F73C00EA3D80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9060608B2C23F73C00EA3D80 /* Chartmate.ai.app */,
+				906060C22C23FED000EA3D80 /* Chartmate.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9060608D2C23F73C00EA3D80 /* Chartmate.ai */ = {
+			isa = PBXGroup;
+			children = (
+				90A5877D2C2D6F9300511553 /* Chartmate.ai.entitlements */,
+				9060608E2C23F73C00EA3D80 /* AppDelegate.swift */,
+				906060902C23F73C00EA3D80 /* SceneDelegate.swift */,
+				906060922C23F73C00EA3D80 /* ViewController.swift */,
+				906060942C23F73C00EA3D80 /* Main.storyboard */,
+				906060972C23F73E00EA3D80 /* Assets.xcassets */,
+				906060992C23F73E00EA3D80 /* LaunchScreen.storyboard */,
+				9060609C2C23F73E00EA3D80 /* Info.plist */,
+			);
+			path = Chartmate.ai;
+			sourceTree = "<group>";
+		};
+		906060C32C23FED000EA3D80 /* Chartmate */ = {
+			isa = PBXGroup;
+			children = (
+				9067D6BD2C3FF4B800343D3D /* New Group */,
+				906060D72C240A3500EA3D80 /* Controller */,
+				906060D42C24088800EA3D80 /* Extensions.swift */,
+				906060C42C23FED000EA3D80 /* KeyboardViewController.swift */,
+				906060C62C23FED000EA3D80 /* Info.plist */,
+				906060DE2C240BB100EA3D80 /* Themes+Colors.swift */,
+			);
+			path = Chartmate;
+			sourceTree = "<group>";
+		};
+		906060D72C240A3500EA3D80 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9085A9142C32BA0000DDC04F /* DemoCalloutActionProvider.swift */,
+				9085A9162C32BA0000DDC04F /* DemoLayoutProvider.swift */,
+				9085A9152C32BA0000DDC04F /* DemoStyleProvider.swift */,
+				9085A9172C32BA0000DDC04F /* FakeAutocompleteService.swift */,
+				9085A9182C32BA0000DDC04F /* KeyboardKit+Demo.swift */,
+				90FE80342C2D36E4009A46CF /* Media.xcassets */,
+				9085A9122C32B9A400DDC04F /* DemoActionHandler.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9067D6BD2C3FF4B800343D3D /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				9067D6BE2C3FF58200343D3D /* Enums.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		DC3A85C90B063699FED2C170 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3EA9B6568A9D1EA6562BA3CB /* Pods_Chartmate_ai.framework */,
+				12C00A452C4C1066EBFC4238 /* Pods_Chartmate_ai_Chartmate_aiUITests.framework */,
+				22D6B49C127ECC7FCF9D5BF1 /* Pods_Chartmate_aiTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1712B9403D78B3B35630728 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				946685E0BA15D59DBFF3DFDD /* Pods-Chartmate.ai.debug.xcconfig */,
+				AADCF1FA2D28E79DB8AF99DB /* Pods-Chartmate.ai.release.xcconfig */,
+				C9E437178D04292E44BCBC9C /* Pods-Chartmate.ai-Chartmate.aiUITests.debug.xcconfig */,
+				FAD5B84952851800F4E299D5 /* Pods-Chartmate.ai-Chartmate.aiUITests.release.xcconfig */,
+				61B5D2A64975AD33C4D79AAE /* Pods-Chartmate.aiTests.debug.xcconfig */,
+				86E5A9FA5920CA647BC91F8C /* Pods-Chartmate.aiTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9060608A2C23F73C00EA3D80 /* Chartmate.ai */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 906060B52C23F73E00EA3D80 /* Build configuration list for PBXNativeTarget "Chartmate.ai" */;
+			buildPhases = (
+				516FA32605DC816F0E5A52AF /* [CP] Check Pods Manifest.lock */,
+				906060872C23F73C00EA3D80 /* Sources */,
+				906060882C23F73C00EA3D80 /* Frameworks */,
+				906060892C23F73C00EA3D80 /* Resources */,
+				906060CA2C23FED000EA3D80 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				906060C82C23FED000EA3D80 /* PBXTargetDependency */,
+			);
+			name = Chartmate.ai;
+			packageProductDependencies = (
+			);
+			productName = Chartmate.ai;
+			productReference = 9060608B2C23F73C00EA3D80 /* Chartmate.ai.app */;
+			productType = "com.apple.product-type.application";
+		};
+		906060C12C23FED000EA3D80 /* Chartmate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 906060CD2C23FED000EA3D80 /* Build configuration list for PBXNativeTarget "Chartmate" */;
+			buildPhases = (
+				906060BE2C23FED000EA3D80 /* Sources */,
+				906060BF2C23FED000EA3D80 /* Frameworks */,
+				906060C02C23FED000EA3D80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chartmate;
+			packageProductDependencies = (
+			);
+			productName = Chartmate;
+			productReference = 906060C22C23FED000EA3D80 /* Chartmate.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		906060832C23F73C00EA3D80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					9060608A2C23F73C00EA3D80 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					906060C12C23FED000EA3D80 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 906060862C23F73C00EA3D80 /* Build configuration list for PBXProject "Chartmate.ai" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 906060822C23F73C00EA3D80;
+			packageReferences = (
+				9085A5BD2C32A8F800DDC04F /* XCRemoteSwiftPackageReference "KeyboardKit" */,
+				90DA22AF2C4931CB006ABC0D /* XCRemoteSwiftPackageReference "GRDB.swift" */,
+				90DA22B82C493285006ABC0D /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+			);
+			productRefGroup = 9060608C2C23F73C00EA3D80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9060608A2C23F73C00EA3D80 /* Chartmate.ai */,
+				906060C12C23FED000EA3D80 /* Chartmate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		906060892C23F73C00EA3D80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9060609B2C23F73E00EA3D80 /* LaunchScreen.storyboard in Resources */,
+				906060982C23F73E00EA3D80 /* Assets.xcassets in Resources */,
+				906060962C23F73C00EA3D80 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		906060C02C23FED000EA3D80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90FE80352C2D36E4009A46CF /* Media.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		516FA32605DC816F0E5A52AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Chartmate.ai-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		906060872C23F73C00EA3D80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				906060932C23F73C00EA3D80 /* ViewController.swift in Sources */,
+				9060608F2C23F73C00EA3D80 /* AppDelegate.swift in Sources */,
+				906060912C23F73C00EA3D80 /* SceneDelegate.swift in Sources */,
+				F3274F312C5FAF720061B05D /* Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		906060BE2C23FED000EA3D80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				906060C52C23FED000EA3D80 /* KeyboardViewController.swift in Sources */,
+				9085A91D2C32BA0000DDC04F /* KeyboardKit+Demo.swift in Sources */,
+				9067D6BF2C3FF58200343D3D /* Enums.swift in Sources */,
+				906060DF2C240BB100EA3D80 /* Themes+Colors.swift in Sources */,
+				9085A91A2C32BA0000DDC04F /* DemoStyleProvider.swift in Sources */,
+				9085A91C2C32BA0000DDC04F /* FakeAutocompleteService.swift in Sources */,
+				9085A91B2C32BA0000DDC04F /* DemoLayoutProvider.swift in Sources */,
+				9085A9192C32BA0000DDC04F /* DemoCalloutActionProvider.swift in Sources */,
+				9085A9132C32B9A400DDC04F /* DemoActionHandler.swift in Sources */,
+				906060D62C2408E700EA3D80 /* Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		906060C82C23FED000EA3D80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 906060C12C23FED000EA3D80 /* Chartmate */;
+			targetProxy = 906060C72C23FED000EA3D80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		906060942C23F73C00EA3D80 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				906060952C23F73C00EA3D80 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		906060992C23F73E00EA3D80 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9060609A2C23F73E00EA3D80 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		906060B32C23F73E00EA3D80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		906060B42C23F73E00EA3D80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		906060B62C23F73E00EA3D80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 946685E0BA15D59DBFF3DFDD /* Pods-Chartmate.ai.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Chartmate.ai/Chartmate.ai.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MTATSX4N6X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Chartmate.ai/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = Test;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.beatbox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		906060B72C23F73E00EA3D80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AADCF1FA2D28E79DB8AF99DB /* Pods-Chartmate.ai.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Chartmate.ai/Chartmate.ai.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MTATSX4N6X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Chartmate.ai/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = Test;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.beatbox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		906060CB2C23FED000EA3D80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MTATSX4N6X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Chartmate/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Chartmate;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.beatbox.ChartMate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		906060CC2C23FED000EA3D80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MTATSX4N6X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Chartmate/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Chartmate;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.beatbox.ChartMate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		906060862C23F73C00EA3D80 /* Build configuration list for PBXProject "Chartmate.ai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				906060B32C23F73E00EA3D80 /* Debug */,
+				906060B42C23F73E00EA3D80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		906060B52C23F73E00EA3D80 /* Build configuration list for PBXNativeTarget "Chartmate.ai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				906060B62C23F73E00EA3D80 /* Debug */,
+				906060B72C23F73E00EA3D80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		906060CD2C23FED000EA3D80 /* Build configuration list for PBXNativeTarget "Chartmate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				906060CB2C23FED000EA3D80 /* Debug */,
+				906060CC2C23FED000EA3D80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9085A5BD2C32A8F800DDC04F /* XCRemoteSwiftPackageReference "KeyboardKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/KeyboardKit/KeyboardKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.7.1;
+			};
+		};
+		90DA22AF2C4931CB006ABC0D /* XCRemoteSwiftPackageReference "GRDB.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/groue/GRDB.swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		90DA22B82C493285006ABC0D /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+	};
+	rootObject = 906060832C23F73C00EA3D80 /* Project object */;
+}
